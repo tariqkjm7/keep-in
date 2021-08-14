@@ -1,7 +1,8 @@
 
   
   header {
-    background:#593c6d;
+    /* box-shadow: 5px 10px black; */
+background-color: black;
     height: 100px;
     width: auto;
     padding-top: 0;
@@ -25,27 +26,43 @@
 
    
   nav li a{
+
+    color: white;
+    margin-top: -15px;
     float: left; 
-    margin-left: 200px;
-    margin-right: -100px;
+    margin-left: 350px;
+    margin-right: -200px;
     text-decoration: none;
-    color: #fffefe;
+
+  }
+  nav li a:hover {
+    border-radius: 15px;
+
+background-color: purple;
+padding :7px;
+
   }
  
   #options{
+    margin-top: -15px;
+    border-radius: 15px;
     float: right;
     margin-left: 70px;
     margin-right: 10px;
   }
   #options .button {
-    background-color: #f7f7f7;
-    color: rgb(98, 60, 134);
+    margin-left: 10px;
+    border-radius: 15px;
+
+    text-decoration: none;
+    background-color: purple;
+    color: #fff;
     padding: 15px 32px;
     text-align: center;
     font-size: 16px;
     border: rgb(70, 40, 99);
     cursor: pointer;
-    margin-top: -70px;
+    /* margin-top: -70px; */
   }
   main{
     padding-top: 100px;
